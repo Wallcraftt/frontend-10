@@ -10,3 +10,30 @@ a{
 ul{
   list-style-type: none;
 }
+section{
+  background-color: #0A22F4;
+ 
+  height: 100%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: 
+    "header header"
+    "section section "
+    "section section "
+    "footer footer  " 
+  ;
+}
+iframe{
+  height: 150px;
+  width: 300px;
+}
+img{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  padding: 5px; 
+  display: inline-block;
+  grid-row: ;
+}
+
+
