@@ -12,8 +12,7 @@ ul{
 }
 section{
   background-color: #0A22F4;
- 
-  height: 100%;
+  height: 700px;
   display: grid;
   grid-template-columns: 50% 50%;
   grid-template-areas: 
@@ -26,14 +25,54 @@ section{
 iframe{
   height: 150px;
   width: 300px;
+  margin-top: 20px;
+}
+p{
+  color: white;
 }
 img{
   width: 30px;
   height: 30px;
   background-color: white;
   padding: 5px; 
-  display: inline-block;
-  grid-row: ;
+  display: inline;
+}
+div{
+  margin: 50px;
+}
+h3{
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: white;
+}
+a{
+  color: white;
+}
+.registration{
+ display: flex;
+ justify-content: space-evenly;
+}
+label{
+  color: white;
+  border-bottom: 2px solid;
+  padding-bottom: 10px;
+  margin: 16px;
+}
+input{
+  border-radius: 5px;
+}
+.message{
+  height: 100px;
+}
+.send{
+  grid-column: 2;
+  display: flex;
+  justify-content: space-evenly;
+}
+.send-2 {
+  color: black;
+  background-color: white;
+  padding: 10px;
 }
 
 
